@@ -1,0 +1,486 @@
+/* Цвета */
+/* Основные настройки */
+html {
+  font-size: 10px;
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 2rem 0 8rem 0;
+  text-align: center;
+}
+.section-header-white {
+  color: #ffffff;
+}
+.section-header h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.section-header p {
+  font-size: 1.4rem;
+}
+.button {
+  background-color: #fcb303;
+  color: #ffffff;
+  padding: 1rem 2.3rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button:hover {
+  background-color: #f2ac03;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.phone-block {
+  display: inline-block;
+  text-align: right;
+}
+.phone-link {
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #1a1820;
+  height: 7rem;
+  line-height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.form {
+  padding: 3rem 4rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.form-header {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.form-header strong {
+  font-size: 1.9rem;
+}
+.form-input {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+.form label {
+  display: inline-block;
+  -webkit-transform: translateY(120%);
+          transform: translateY(120%);
+  font-size: 1.3rem;
+  color: #565656;
+  background-color: #ffffff;
+}
+.form-btn {
+  margin-top: 4rem;
+  display: block;
+  width: 100%;
+  height: 5.5rem;
+  font-size: 1.6rem;
+}
+/* Шапка, первый блок */
+.main {
+  padding: 3rem 0;
+  background: #f5f5f5 url(../img/bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+}
+.main-subtitle {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #46b814;
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+.main span strong {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.main-trigger {
+  display: block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.main small {
+  display: block;
+  margin-top: 1.4rem;
+  font-size: 1rem;
+}
+/* Второй блок (приемущества) */
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin-bottom: 3rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.2rem;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  width: 6.5rem;
+  height: 6.5rem;
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev {
+  left: 0;
+  background: url(../img/features/left-arrow.png) center no-repeat;
+  background-size: 70%;
+}
+.next {
+  right: 0;
+  background: url(../img/features/right-arrow.png) center no-repeat;
+  background-size: 70%;
+}
+/* Третий блок (Цены) */
+.price {
+  background: #060;
+}
+.price-header-btn {
+  margin-top: 2.6rem;
+}
+.price-button {
+  text-align: right;
+}
+.price-block {
+  padding: 5rem 3rem;
+  margin-bottom: 2rem;
+  background: #ffffff;
+  -webkit-box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.price-block h4 {
+  height: 4rem;
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.price-block img {
+  display: block;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.price-tag {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.price-list {
+  padding: 0rem;
+  list-style: none;
+  min-height: 14rem;
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+.price-list li:before {
+  content: '';
+  display: inline-block;
+  margin-right: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: url(../img/price/check.svg) no-repeat center;
+  background-size: 100%;
+  vertical-align: middle;
+}
+/* Четверты блок (Отзовы) */
+.feedback {
+  background: #e8e0e0;
+}
+.feedback-text {
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 2px solid #46b814;
+  font-style: italic;
+}
+.feedback-text::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -2rem;
+  left: 4rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffffff;
+  border: 2px solid #46b814;
+  border-bottom: none;
+  border-top-right-radius: 2rem;
+}
+.feedback-slider {
+  padding: 5rem 6rem;
+  background: #ffffff;
+  -webkit-box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.2);
+}
+.feedback-slider .media {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+}
+.feedback-slider .media-body {
+  margin-top: 0.5rem;
+}
+.feedback-slider .media h4 {
+  font-weight: 700;
+}
+.feedback-slider .media img {
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+.feedback-slider p {
+  font-size: 1.6rem;
+}
+.feedback-slider-btn {
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 4rem;
+  height: 5rem;
+  border: none;
+}
+.feedback-next-btn {
+  right: -4rem;
+}
+.feedback-prev-btn {
+  left: -4rem;
+}
+.feedback .fotorama__thumb-border {
+  border-color: #46b814;
+}
+.feedback .slick-dots {
+  position: relative;
+  top: 7.4rem;
+  text-align: center;
+}
+.feedback-form {
+  margin-top: 6rem;
+  text-align: center;
+}
+.feedback-form-block {
+  padding: 4rem 10rem;
+  background: #ffffff;
+}
+.feedback-form h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.feedback form {
+  padding: 0rem;
+}
+.feedback-btn {
+  max-width: 50%;
+  margin: 2rem auto;
+}
+/* Пятый блок (контакты) */
+.contacts {
+  padding-bottom: 2rem;
+  font-size: 1.4rem;
+  background: #ffffff url(../img/contants/tool.png) bottom right no-repeat;
+  background-size: 40%;
+}
+.contacts-header {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.contacts p {
+  margin: 2rem 0;
+}
+.contacts .google-maps {
+  width: 100%;
+  height: 40vh;
+  border: 2px solid #46b814;
+}
+/* Модальное окно */
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  max-height: 85%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #ffffff;
+  padding: 4rem 6rem;
+}
+.popup-form {
+  margin-top: 1rem;
+  padding: 0;
+}
+.popup-close {
+  position: absolute;
+  top: -1.6rem;
+  right: -2rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background: transparent;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.popup-content {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.popup-header {
+  font-weight: 700;
+}
+/* Настройки маленьких экранов */
+@media (max-width: 991px) {
+  .phone-block {
+    text-align: center;
+  }
+  .main {
+    background-position: right top;
+  }
+  .main-content {
+    margin-top: 5rem;
+  }
+  .main-title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .price-button {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .price-header-btn {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  .section-header-white {
+    margin-bottom: 0;
+  }
+  .feedback .fotorama {
+    margin-bottom: 3rem;
+  }
+  .popup-content {
+    width: 60%;
+  }
+  .contacts {
+    background: none;
+    background-color: #f5f5f5;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
+  .feedback .container {
+    max-width: 100%;
+  }
+  .feedback-btn {
+    max-width: 65%;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+}
+@media (max-width: 575px) {
+  .main-title h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .feedback-slider {
+    padding: 4rem 2rem;
+  }
+  .feedback-form-block {
+    padding: 10%;
+  }
+  .feedback form {
+    padding: 0rem;
+  }
+  .feedback-btn {
+    max-width: 100%;
+  }
+  .popup-content {
+    width: 85%;
+    padding: 4rem 5%;
+  }
+}
